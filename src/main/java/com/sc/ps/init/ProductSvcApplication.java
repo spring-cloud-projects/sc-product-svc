@@ -3,11 +3,11 @@ package com.sc.ps.init;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication
-public class ScProductSvcApplication {
+@SpringBootApplication(scanBasePackages = "com.sc.ps")
+public class ProductSvcApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ScProductSvcApplication.class, args);
+		SpringApplication.run(ProductSvcApplication.class, args);
 	}
 
 }
