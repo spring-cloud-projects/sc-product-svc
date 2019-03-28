@@ -15,7 +15,7 @@ import com.sc.ps.init.rest.models.Product;
 import com.sc.ps.init.rest.response.ProductResponse;
 import com.sc.ps.init.rest.util.ProductUtil;
 
-@RestController("/")
+@RestController("/prodsvc")
 public class ProductSvcRestController {
 	private ProductServiceBusiness business;
 
